@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+
+    <!-- ✅ Responsive ke liye important -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/signup.css">
+</head>
+<body>
+
+<div class="login-box">
+    <h2>Signup</h2>
+
+    <form action="/signup" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+
+        <!-- NOTE: sirf responsive ka kaam hai, structure same -->
+        <button type="submit">Signup</button>
+    </form>
+
+    <p class="switch">
+        Already have an account?
+        <a href="/login">Login</a>
+    </p>
+
+</div>
+
+</body>
+</html>

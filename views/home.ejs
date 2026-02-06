@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <!-- External CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ResponsiveSite</h1>
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Welcome to Our Responsive Website</h1>
+        <p>This layout adapts to all screen sizes - from desktop to mobile. Resize your browser window to see the responsive design in action!</p>
+        <a href="#services" class="btn">Explore Our Services</a>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="content" id="services">
+        <div class="card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Mobile First</h3>
+            <p>Designed with a mobile-first approach to ensure optimal viewing on all devices.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-desktop"></i>
+            <h3>Responsive Layout</h3>
+            <p>Adapts seamlessly to different screen sizes and orientations.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Loading</h3>
+            <p>Optimized for performance with minimal code and efficient design.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-code"></i>
+            <h3>Clean Code</h3>
+            <p>Built with semantic HTML and modular CSS for easy maintenance.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <p>&copy; 2023 Responsive Website. All rights reserved.</p>
+        <p>Designed to work perfectly on any device.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- External JavaScript File Link -->
+    <script src="/js/home.js"></script>
+</body>
+</html>
